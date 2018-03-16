@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeVC.swift
 //  app-swoosh
 //
 //  Created by Jim Long on 3/15/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var bgImage: UIImageView!
     @IBOutlet weak var titleLbl: UILabel!
@@ -17,15 +17,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
     
-    @IBAction func unwindFromSkillVC(unwindSeque: UIStoryboardSegue) {
+    @IBAction func unwindFromLeagueVC(unwindSeque: UIStoryboardSegue) {
         
     }
 
